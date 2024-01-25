@@ -50,7 +50,7 @@ function Search() {
     if (loading) {
         return <Loading />
     }
-
+        
     return (
         <>
             <div className="flex h-[89vh] w-full flex-col items-center justify-center gap-12 bg-black/20 pt-24">

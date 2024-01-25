@@ -123,7 +123,7 @@ export const ProfilePicture = ({ profile, setPfp }) => {
     }, [])
 
     const src = fetchedPfp || '/avatar.png'
-
+    
     return (
         <>
             <div className="relative h-96 w-96 overflow-hidden rounded-full">
